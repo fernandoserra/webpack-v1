@@ -1,0 +1,13 @@
+1) iniciamos el proyecto con npm init
+
+2) instalando webpack: npm install webpack --save-dev
+2.1) instalamos npm install webpack-cli --save-dev (hay que intalarlo)
+2.2) si todo salio bien ejecutamos: npx webpack -v, nos muestra la versión de webpack
+
+3) luego creamos el archivo de configuracion de webpack webpack.config.js
+3.1) en el package.json creamos el script (ojo en esta nueva version tenemos que indicarle si o si el modo)
+environment (produccion,desarrollo etc,) 
+
+4) Trabajar con CSS instalando (npm install --save-dev css-loader) 
+4.1) Instalar (npm install style-loader --save-dev)
+4.2) Instalando (npm i -D extract-text-webpack-plugin@next) si queremos tenerlo en un archivo aparte
